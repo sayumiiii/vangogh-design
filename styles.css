@@ -11,18 +11,45 @@ footer, nav{
      padding: 8px 8px; font-size: 15px;
 }
 nav{
-    color:inherit; width:1250px; 
+    color:inherit; width:100%; 
 }
 a{
     color: white;text-decoration: none; margin: 20px;
 }
-img{
-   width: 50%; padding: 20px;
-}
+
 p{
     width: 250px;
 }
-.phrase2, .phrase4{
-    float: right;
-    text-align: right;
+.lbox{
+    padding: 20px 20px 20px 20px;
+    background-color: thistle;
 }
+.lbox label{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 40px;
+}
+.submit{
+    background-color: rebeccapurple;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+div.gallery {
+    margin: 50px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 450px;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
