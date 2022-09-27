@@ -8,13 +8,6 @@
 
 <h1>VINCENT VAN GOGH</h1>
 
-<div class="" style="background-color:#BF9E10 ;margin-bottom: 20px; width: 500px; height: 150px;">
-   <h2 style="font-family:light italic ;"> 
-    "I dream my painting and i paint my dream" 
-     - vincent Willem van GOGH
-    </h2> 
-</div>
-
 <div class="nav">
     <nav>
     <a href="Home.html">BIOGRAPHY</a>
@@ -22,21 +15,22 @@
     <a class="active"  href="feedback.html">  FEEDBACK</a>
     </nav>
 </div>
-
+<br>
+<h2>your feedback is important to us</h2>
 <body class="#feedback">
     <div class="lbox">
         <form>
-            <label>No of tables</label>
-            <input type="text" id="numtables"><br>
-            <label>Time</label>
-            <input type="text" id="time"><br>
-            <label>Name</label>
-            <input type="text" id="name"><br>
-
-            <input type="submit">
+            <label for="feedback">Feedback:</label>
+            <div class="col-25"></div>    
+            <div class="col-75">    
+                <textarea id="feedback" name="feedback" placeholder="Write something.." style="height:200px">
+                </textarea>
+                <input class="submit" type="submit">
+            </div>             
         </form>
     </div>
 </body> 
+<br>
 </main>
 <footer> by sayumi Amarasinghe</footer>
 </html>

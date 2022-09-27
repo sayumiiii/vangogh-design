@@ -1,10 +1,18 @@
 
+html {
+    block-size: 100%;
+    inline-size: 100%;
+    background-color: blanchedalmond ;
+  }
 h1{
     font-family: "Open Sans";
+    text-align: center;
 }
 h2{
     text-align: center;
     margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 footer, nav{
     background-color:black ; color: aliceblue;text-align: center;
@@ -18,19 +26,48 @@ a{
 }
 
 p{
-    width: 250px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    outline-style: groove;
+    padding: 30px 30px 30px 30px;
 }
 .lbox{
     padding: 20px 20px 20px 20px;
-    background-color: thistle;
+    background-color: rgb(206, 167, 38);
+    width: 50%;
+    height: 400px;
+    margin-left: 300px;
 }
 .lbox label{
-    font-size: medium;
+    font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-right: 40px;
+    padding-left: 40px;
+    color: #f8f8f8;
 }
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  }
+form{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 50px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
 .submit{
-    background-color: rebeccapurple;
+    background-color: rgb(59, 31, 146);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -40,10 +77,10 @@ p{
   font-size: 16px;
 }
 div.gallery {
-    margin: 50px;
+    margin: 30px;
     border: 2px solid #ccc;
     float: left;
-    width: 450px;
+    width: 350px;
   }
   div.gallery img {
     width: 100%;
@@ -53,4 +90,3 @@ div.gallery {
     padding: 15px;
     text-align: center;
   }
-  
