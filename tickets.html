@@ -18,24 +18,40 @@
  <h2>Reserve your tickets online to avoid the queues!</h2>
 <body class="tickets" >
     <div class="lbox" >
-        <form >
+        <form> 
+            <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>    
+            <div class="form-group">
+                <label for="numtables" >No of tables</label>
+                <select class="custom-select custom-select-lg mb-3" id="numtables">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+            </div><br>
+            <div class="form-group">
+                <label for="time"> date and Time</label>
+                <input type="text" id="time">
+            </div>
+                <br>
+            <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+                Click me to know todays Date and Time.</button>
+                <br>
+                <span id="demo" ></span>
+                <br>
            
-            <label>No of tables</label>
-            <input type="text" id="numtables"><br>
-            <label> date and Time</label>
-            <input type="text" id="time"><br>
-            <button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to know todays Date and Time.</button>
-           <br>
-           <span id="demo" ></span>
-           <br>
-<label>Name</label>
-            <input type="text" id="name"><br>
 
-            <input class="submit" type="submit">
+            <input class="btn btn-primary" type="submit" >
         </form>
     </div>
+    
 </body>
 <br>
 </main>
