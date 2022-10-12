@@ -36,7 +36,7 @@ a{
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-left: 40px;
-    color: #f8f8f8;
+    color: #000064;
 }
 input {
   width: 100%;
@@ -105,11 +105,12 @@ div.gallery {
       height: 5em;
       padding-top: 1.55em;
     }
-    #feedback{
+    .feedback{
       font-size: 2.5em;
       font-style: italic;
       padding: 1em 1em 1em 1em;
       font-weight: 700;
+      color: rgb(0, 0, 0);
     }
     .lbox form label {
       font-size: 2.5em;
@@ -163,6 +164,4 @@ and (max-device-width : 1024px) {
     font-size: 2em;
     margin-top: 2em;;
   }
- 
- 
 }
